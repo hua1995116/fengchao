@@ -1,0 +1,300 @@
+::-webkit-scrollbar{width:0px}
+body,html{
+	background: #ededed;
+	
+}
+
+/* 头部 */
+.navbar{
+	margin-bottom: 0px;
+	
+}
+.nav_lxy{
+	height: 40px;
+	min-height: 40px;
+}
+#caidan2{
+	height:100%;
+	display:none;
+	width:100%; 
+}
+.nav_lxy{
+	background: #ec6e47;
+	box-shadow:  1px 1px 2px 2px #817777;
+}
+
+/*  */
+.header{
+	display: -webkit-flex;
+	display: -moz-box;  /* Firefox */ 
+    display: -ms-flexbox;    /* IE10 */ 
+    display: -webkit-box;    /* Safari */  
+    display: -webkit-flex;    /* Chrome, WebKit */
+    display: box;  
+    display: flexbox;  
+    display: flex;    
+}
+.place1{
+	width: 28%;	
+}
+.place1 img{
+	margin-left: 10%;
+}
+#menu_top{
+	height:40px;
+	width:40px;
+	display:block;
+	position: relative;
+}
+.place2{
+	overflow: hidden;
+	width: 50%;
+	color: #fff;
+	height: 40px;
+	text-align: center;
+}
+.img_search{
+	height: 20px;
+	margin-top: 4%;
+	float: left;
+	width: 10%;
+	background: #e4e1df;
+	border-radius: 20px 0 0 20px;
+	border-right: 1px solid #e4e1df;
+}
+.img_search img{
+	width: 90%;
+}
+.input_search{
+	width: 90%;
+	float: left;
+	height: 20px;
+	margin-top: 4%;
+	border:none;
+	border-radius: 0 20px 20px 0 ;
+	background: #e4e1df;
+	padding: 1% 1% 1% 5%;
+	
+}
+
+.place3{
+	width: 22%;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+}
+
+/* 中间 */
+.contain{
+	padding-bottom: 5%;
+}
+.bottom_four{
+	background: #ededed;
+	margin-top: 0;
+}
+.bottom_four li{
+	width: 25%;
+	float: left;
+	text-align: center;
+	background: #75757c;
+	color: #fff;
+	padding: 2%;
+	font-size: 12px;
+}
+.bottom_four li img{
+	height: 20px;
+	margin: 6% auto;
+}
+/*服务*/
+.fuwu{
+
+}
+.fuwu_tittle{
+	line-height: 30px;
+	text-indent: 10px;
+	height: 30px;
+	width: 100%;
+	background: #dadada;
+	color: #999999;
+}
+.fuwu_contain{
+
+}
+.fuwu_contain li{
+	width: 32%;
+	float: left;
+	padding: 5%;
+	background: #f2f6f3;
+	text-align: center;
+	color: #999999;
+}
+.fuwu_contain li:hover{
+	background:#e55532;
+}
+.fuwu_contain li a{
+	color: #999999;
+	display: block;
+}
+.left{
+	margin-left: 2%;
+}
+.top{
+	margin-top: 2%;
+}
+.fuwu_contain li img{
+	width: 50%;
+}
+.vip{
+	padding:2% 1% 0 1%;
+	margin:3% 0 15% 0; 
+	background: #f2f6f3;
+}
+.vip_top p{
+	float: left;
+	text-indent: 4%;
+	font-size: 14px;
+}
+.price{
+	color: red;
+}
+.vip_bottom{
+	text-align: right;
+	font-size: 12px;
+}
+/* 尾部 */
+.nav_bottom_im{
+	max-width: 500px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.bottom_three{
+	
+}
+.bottom_three li{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	background: #3a3d47;
+	color: #1e2128;
+}
+.bottom_three li:hover{
+	background: #e55532;
+}
+.bottom_three li a{
+	color:#1e2128;	
+	display: block;
+
+}
+.bottom_three li img{
+	width: 25%;
+	margin: 4% auto;
+}
+.bottom_three .bottom_cliect{
+	color: #fff;
+	background: #e55532;
+}
+.menu{
+	width:21%;
+	float: left;
+}
+.menu1{
+	margin-left: 20%;
+}
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 400px) and (max-width: 640px) {
+	.place3{
+		font-size: 14px;
+	}
+	.bottom_three li img{
+		width: 25%;
+		margin: 4% auto;
+	}
+	.bottom_three li{
+		font-size: 13px;
+	}
+	.img_search{
+		margin-top: 4%;
+	}
+	.input_search{
+		margin-top: 4%;
+	}
+	.fuwu_contain li{
+		padding: 8%;		
+	}
+	.fuwu_contain li img{
+		width: 60%;
+	}
+	.vip{
+		padding:4% 2% 1% 2%;
+		font-size: 15px;
+	}
+	.fuwu_tittle{
+		line-height: 40px;
+		text-indent: 12px;
+		height: 40px;
+		font-size: 15px;
+	}
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 399px) {
+	.place3{
+		font-size: 13px;
+	}
+	.bottom_three li img{
+		width: 22%;
+		margin: 3% auto;
+	}
+	.bottom_three li{
+		font-size: 11px;
+	}
+	.img_search{
+		margin-top: 5%;
+	}
+	.input_search{
+		margin-top: 5%;
+	}
+}
+@media (max-width: 320px){
+	.place3{
+		font-size: 12px;
+	}
+	.bottom_three li img{
+		width: 20%;
+		margin: 3% auto;
+	}
+	.bottom_three li{
+		font-size: 11px;
+	}
+	.img_search{
+		margin-top: 5%;
+	}
+	.input_search{
+		margin-top: 5%;
+	}
+	.fuwu_contain li{
+		padding: 4%;		
+	}
+	.fuwu_contain li img{
+		width: 35%;
+	}
+	.vip{
+		padding:4% 2% 1% 2%;
+		font-size: 15px;
+	}
+	.vip_top:nth-child(1){
+		font-size: 13px;
+		color: #636363;
+	}
+	.vip_bottom{
+		font-size: 0.1em;
+		color: #636363;
+	}
+	.fuwu_tittle{
+		line-height: 28px;
+		text-indent: 8px;
+		height: 28px;
+		font-size: 12px;
+	}
+}

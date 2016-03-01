@@ -1,0 +1,81 @@
+.all-bg{
+	background: #f06852;
+	width: 100%;
+	height: 100%;
+}
+/* 头部 */
+.login_logo{
+	width: 55%;
+}
+.login_logo a{
+	padding-top:30px; 
+	display: block;
+}
+.login_logo img{
+	width: 100%;
+}
+
+
+
+/* 中间 */
+.login_form{
+	width: 80%;
+	margin: 14% auto;
+}
+.login_form input{
+	height: 40px;
+	margin-top: 5%;
+	width: 100%;
+	border: none;
+}
+.text{
+	padding-left: 3%;
+	background: #dfe4e0;
+}
+.submit{
+	color: #fff;
+	background: #303135;
+	letter-spacing: 6px;
+}
+.imform{
+	margin-top: 5%;
+	color: #fff;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/* 尾部 */
+.bottom1_three{
+	position: absolute;
+	bottom:0;
+	width: 90%;
+	margin:10% auto;
+}
+.bottom1_three img{
+	width: 90%;
+	margin-left: 10%;
+}
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 400px) and (max-width: 640px) {
+	
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 399px) {
+	
+}
+@media (max-width: 319px){
+	.login_logo{
+		width: 45%;
+	}
+	.login_form{
+		width: 75%;
+		margin: 10% auto;
+	}
+	.login_form input{
+		height: 30px;
+		margin-top: 5%;
+	}
+}

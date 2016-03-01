@@ -1,0 +1,247 @@
+<div id="page"  >
+	<!-- 头部菜单 -->
+	<nav id="menu" >
+		<ul>
+			<li>
+				<img src="icon/侧滑页/icon_set up.png">
+				<a href="javascript:;">设置</a>
+			</li>
+			<li>
+				<img src="icon/侧滑页/icon_message.png">
+				<a href="javascript:;">消息提示</a>
+			</li>
+			<li>
+				<img src="icon/侧滑页/icon_cooperate.png">
+				<a href="javascript:;">我要合作</a>
+			</li>
+			<li>
+				<img src="icon/侧滑页/icon_feedback.png">
+				<a href="javascript:;">意见反馈</a>
+			</li>
+			<li>
+				<img src="icon/侧滑页/icon_about.png">
+				<a href="javascript:;">关于我们</a>
+			</li>
+		</ul>
+	</nav>
+	<header>
+
+		<nav class="navbar navbar-static-top nav_lxy">
+			<div class="container-fluid">
+			    <div class="navbar-header">
+			      <div class="header">
+					<div class="place1">
+						<a href="#menu" id="menu_top">
+							<img src="images/caidan.png" width="90%" />
+						</a>
+					</div>
+					<div class="place2">
+						<div class="img_search">
+							<img src="images/search1.png">
+						</div>
+					    <input type="text" class="input_search" placeholder="搜索..."/>
+					    <br style="clear:both">
+					</div>	
+					<div class="place3">
+						
+					</div>
+				  </div>
+			    </div>    
+		  </div>
+		</nav>
+	</header>
+	<!-- 焦点图商品展示 -->
+	<div class="middle">
+		<div class="addWrap">
+		  <div class="swipe" id="mySwipe">
+		    <div class="swipe-wrap">
+		      <div><a href="javascript:;"><img class="img-responsive" src="images/banner05.png"/></a></div>
+		      <div><a href="javascript:;"><img class="img-responsive" src="images/banner01.png"/></a></div>
+		      <div><a href="javascript:;"><img class="img-responsive" src="images/banner02.png"/></a></div>
+		      <div><a href="javascript:;"><img class="img-responsive" src="images/banner03.png"/></a></div>
+		      <div><a href="javascript:;"><img class="img-responsive" src="images/banner04.png"/></a></div>
+		    </div>
+		  </div>
+		  <ul id="position">
+		    <li class="cur"></li>
+		    <li class=""></li>
+		    <li class=""></li>
+		    <li class=""></li>
+		    <li class=""></li>
+		  </ul>
+		</div>
+		<script type="text/javascript">
+			var bullets = document.getElementById('position').getElementsByTagName('li');
+			var banner = Swipe(document.getElementById('mySwipe'), {
+			auto: 5000,
+			continuous: true,
+			disableScroll:false,
+			callback: function(pos) {
+				var i = bullets.length;
+				while (i--) {
+				  bullets[i].className = ' ';
+				}
+				bullets[pos].className = 'cur';
+			}
+		});
+		</script>
+		<div class="contain"> 
+			<ul class="bottom_four">
+		      	<li class="bottom_cliect">
+		      		<img src="icon/icon_scan.png">
+		      		<p>扫一扫</p>
+		      	</li>
+		      	<li>
+		      		<img src="icon/icon_nearby.png">
+		      		<p>附近</p>
+		      	</li>
+		      	<li>
+		      		<img src="icon/icon_coupon.png">
+		      		<p>卡券</p>
+		      	</li>
+		      	<li>
+		      		<img src="icon/icon_pay.png">
+		      		<p>付款</p>
+		      	</li>
+		      	<br style="clear:both;">
+		    </ul>	
+		    <div class="fuwu">
+		    	<div class="fuwu_tittle">
+		    		为你服务
+		    	</div>
+		    	<ul class="fuwu_contain">
+					<li>
+			      		<a ui-sref-active="active" ui-sref="main.smartcar" ng-click="go('slideRight')" onclick="abc('slideRight');">
+			      			<img src="icon/icon_express.png">
+			      			<p>智慧停车</p>
+			      		</a>
+			      	</li>
+			      	<li class="left">
+			      		<a ui-sref-active="active" ui-sref="main.jiazheng" ng-click="go('slideRight')">
+			      			<img src="icon/icon_水电缴费.png">
+			      			<p>水电煤气</p>
+			      		</a>
+			      	</li>
+			      	<li class="left">
+			      		<a ui-sref-active="active" ui-sref="main.jiazheng" ng-click="go('slideRight')">
+			      			<img src="icon/icon_serve.png">
+			      			<p>家政服务</p>
+			      		</a>
+			      	</li>
+			      	<li class="top">
+			      		<a ui-sref-active="active" ui-sref="main.jiazheng" ng-click="go('slideRight')">
+			      			<img src="icon/icon_repair.png">
+			      			<p>修理中心</p>
+			      		</a>	
+			      	</li>
+			      	<li class="left top ">
+			      		<a ui-sref-active="active" ui-sref="main.jiazheng" ng-click="go('slideRight')">
+			      			<img src="icon/icon_hire.png">
+		      				<p>房屋出租</p>
+			      		</a>
+			      	</li>
+			      	<li class="left top ">
+			      		<a ui-sref-active="active" ui-sref="main.more" ng-click="go('slideRight')">
+			      			<img src="icon/icon_more.png">
+			      			<p>更多</p>
+			      		</a>
+			      	</li>
+			      	<br style="clear:both"> 
+				</ul>
+		    </div>
+			<div class="vip">
+				<div class="vip_top">
+					<p>
+						会员积分：
+					</p>
+					<p class="price">
+						778.00
+					</p>
+					<br style="clear:both">
+				</div>
+				<p class="vip_bottom">
+					点击成为会员，享抵用活动
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 下端菜单 -->
+	<footer>
+		<nav class="nav_bottom_im">
+		  <div class="containe">
+		      <ul class="bottom_three">
+		      	<li class="bottom_cliect">
+		      		<img src="images/bottom1.png">
+		      		<p>首页</p>
+		      	</li>
+		      	<li>
+		      		<img src="images/bottom2.png">
+		      		<p>购买</p>
+		      	</li>
+		      	<li>
+		      		<a ui-sref-active="active" ui-sref="login" ng-click="go('slideRight')">
+		      			<img src="images/bottom3.png">
+		      			<p>我的中心</p>
+		      		</a>
+		      		
+		      	</li>
+		      </ul>
+		  </div>
+		</nav>
+	</footer>
+</div>
+<div id="abc">
+	<div ui-view></div>
+</div>
+<script type="text/javascript">
+$(function(){
+	$('nav#menu').mmenu();
+	$("#kinMaxShow").kinMaxShow({
+	
+		height:156,
+		button:{
+			showIndex:false,
+			normal:{background:'url(images/button.png) no-repeat -10px 0',marginRight:'4px',border:'0',right:'2%',bottom:'7px',width:'10px'},
+			focus:{background:'url(images/button.png) no-repeat 0 0',border:'0'}
+		},
+	
+		callback:function(index,action){
+			switch(index){
+				case 0 :
+				if(action=='fadeIn'){
+					$(this).find('.sub_1_1').animate({left:'70px'},600)
+					$(this).find('.sub_1_2').animate({top:'60px'},600)
+					
+				}else{
+					$(this).find('.sub_1_1').animate({left:'110px'},600)
+					$(this).find('.sub_1_2').animate({top:'120px'},600)
+					
+				};
+				break;
+						
+				case 1 :
+				if(action=='fadeIn'){
+					$(this).find('.sub_2_1').animate({left:'-100px'},600)
+					$(this).find('.sub_2_2').animate({top:'60px'},600)
+				}else{
+					$(this).find('.sub_2_1').animate({left:'-160px'},600)	
+					$(this).find('.sub_2_2').animate({top:'20px'},600)
+				};
+				break;
+						
+				case 2 :
+				if(action=='fadeIn'){
+					$(this).find('.sub_3_1').animate({right:'350px'},600)
+					$(this).find('.sub_3_2').animate({left:'180px'},600)
+				}else{
+					$(this).find('.sub_3_1').animate({right:'180px'},600)	
+					$(this).find('.sub_3_2').animate({left:'30px'},600)
+				};
+				break;											
+			}
+		}
+	
+	});
+});
+</script>
+

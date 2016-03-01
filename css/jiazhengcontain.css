@@ -1,0 +1,292 @@
+
+.navbar{
+	margin-bottom: 0px;
+	
+}
+.nav_lxy{
+	height: 40px;
+	min-height: 40px;
+}
+#caidan2{
+	height:100%;
+	display:none;
+	width:100%; 
+}
+.nav_lxy{
+	background: #ec6e47;
+	box-shadow:  1px 1px 2px 2px #817777;
+}
+.navbar-header a{
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 8%;
+	display: block;
+	float: left;
+}
+.navbar-header img{
+	width: 100%;	
+}
+.jiazheng{
+	text-align: center;
+	width: 20%;
+	margin:0 auto;
+	line-height: 40px;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+/*内容*/
+.top_jiazheng{
+	padding: 7% 0 4% 0;
+	background: #fff;
+}
+.top_jiazheng div{
+	
+}
+.name_z{
+	padding-left: 10%;
+	width: 30%;
+	float: left;
+	background: url(../icon/家政选中/icon_user.png) no-repeat;
+	background-size:contain;
+	background-position: 11% 0;
+}
+.name_block{
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	opacity: 0.9;
+	background: #000;
+	position: absolute;
+}
+
+.name_contain{
+	width: 70%;
+	height: 40%;
+	background:#fff;
+	margin:35% auto;
+}
+.name_contain >div{
+	position: absolute;
+	height: 10%;
+	margin-top: 25%;
+}
+#ccc{
+	width: 70%;
+	margin:10% auto;
+	border:none;
+	background: #65DE35;
+	border-radius: 5px;
+	margin-left: 15%;
+}
+#ccc:hover{
+	background: #82CC65;
+}
+.mobile_z{
+	padding-left: 10%;
+	width: 30%;
+	float: left;
+	background: url(../icon/家政选中/icon_phone.png) no-repeat;
+	background-size:contain;
+	background-position: 11% 0;
+
+}
+.address_z{
+	padding-left: 3%;
+	padding-top: 5%;
+	width: 100%;
+}
+.middle_jiazheng{
+	margin-top: 4%;
+	background: #fff;
+}
+.middle_header{
+	width: 90%;
+	margin: 2% auto;
+	border-bottom:1px solid #ddd;
+}
+.middle_header >div{
+	margin:2%;
+}
+.beizhu{
+	width: 36%;
+}
+.timer{
+	width:56%;
+}
+.timer_name{
+
+}
+.timer_time{
+	text-indent: 10px;
+}
+.middle_sex{
+	margin: 4% 0;
+}
+#sex{
+	width: 40%;
+	margin: 0 auto;
+}
+#sex li{
+	width: 48%;
+}
+.pic_sex1 div:nth-child(1){
+	width: 100%;
+	height: 40px;
+	background: url(../icon/家政选中/icon_man.png) no-repeat;
+	background-size: 20%;
+	background-position: 50% 0;
+}
+.pic_sex1 div:nth-child(2){
+	width: 100%;
+	height: 20px;
+	background: url(../icon/家政选中/icon_yes.png) no-repeat;
+	background-size: 20%;
+	background-position: 50% 0;
+}
+.pic_sex2 div:nth-child(1){
+	width: 100%;
+	height: 40px;
+	background: url(../icon/家政选中/icon_women.png) no-repeat;
+	background-size: 20%;
+	background-position: 50% 0;
+}
+.pic_sex2 div:nth-child(2){
+	width: 100%;
+	height: 20px;
+	background: url(../icon/家政选中/icon_no.png) no-repeat;
+	background-size: 20%;
+	background-position: 50% 0;
+}
+.middle_step{
+	width: 90% ;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5%;
+}
+.middle_step li{
+	float: left;
+	height: 70px;
+}
+.middle_step li:nth-child(1){
+	width: 5%;
+	background: url(../icon/家政选中/heng.png) no-repeat;
+	background-size: 100%;
+	background-position:  15% 50%;
+}
+.middle_step li:nth-child(2){
+	width: 22%;
+	background: url(../icon/家政选中/icon_one.png) no-repeat;
+	background-size: 92%;
+	background-position: 50% 0;
+}
+.middle_step li:nth-child(3){
+	width: 10%;
+	background: url(../icon/家政选中/heng.png) no-repeat;
+	background-size: 100%;
+	background-position: 0 50% ;
+}
+.middle_step li:nth-child(4){
+	width: 22%;
+	background: url(../icon/家政选中/icon_two.png) no-repeat;
+	background-size:92%;
+	background-position: 50% 0;
+}
+.middle_step li:nth-child(5){
+	width:10%;
+	background: url(../icon/家政选中/heng.png) no-repeat;
+	background-size: 100%;
+	background-position: 0 50% ;
+}
+.middle_step li:nth-child(6){
+	width: 22%;
+	background: url(../icon/家政选中/icon_three.png) no-repeat;
+	background-size: 92%;
+	background-position: 50% 0;
+}
+.middle_step li:nth-child(7){
+	width: 5%;
+	background: url(../icon/家政选中/heng.png) no-repeat;
+	background-size: 100%;
+	background-position: 0 50% ;
+}
+.middle_extra{
+	width: 90% ;
+	margin: 3% auto;
+
+}
+.middle_extra textarea{
+	border:none;
+	height: 90px;
+}
+/*bottom_jiazhneg*/
+.bottom_jiazheng{
+	background: #fff;
+	padding: 2%;
+}
+.use_bottom p{
+	background: url(../icon/家政选中/iocn_sss.png) no-repeat;
+	background-size: 5%;
+	background-position: 2% 45%;
+	padding-left: 8%;
+}
+.many_bototm{
+	margin-top:3%;
+	margin-bottom: 3%;
+}
+.many_bottom p{
+	float: right;
+	width: 25%;
+	height: 20px;
+	line-height: 20px;
+}
+.many_bottom p:nth-child(1){
+	color: red;
+	font-size: 20px;
+}
+.many_bottom p:nth-child(2){
+	text-indent: 12px;
+}
+/*footer*/
+.bottom_footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+.bottom_correct{
+	width: 100%;
+}
+.bottom_correct li{
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	color: #fff;
+}
+.bottom_correct li:nth-child(1){
+	width: 60%;
+	background: #3a3d47;
+	font-size: 17px;
+	text-indent: 10%;
+}
+.bottom_correct li:nth-child(2){
+	width: 40%;
+	background: #ec6e47;
+	text-align: center;
+	font-size: 17px;
+}
+/*付款确认*/
+
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 400px) and (max-width: 640px) {
+	.middle_step li{
+	float: left;
+	height: 80px;
+}
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 399px) {
+	
+}
+@media (max-width: 320px){
+	
+}
